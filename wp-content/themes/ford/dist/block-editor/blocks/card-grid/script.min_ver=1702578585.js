@@ -1,0 +1,2 @@
+this.wdg=this.wdg||{},this.wdg.script=function(r){"use strict";function t(r){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};t={wrap:".card-grid__wrap",btn:".load-more",items:".card-grid__items .card",...t};const e=r.querySelector(t.wrap),i=Array.from(r.querySelectorAll(t.items)),c=e.querySelector(t.btn);if(e&&i&&c)return r}const e=Array.from(document.querySelectorAll(".card-grid")).map(t);return r.init=t,r.instances=e,r}({});
+//# sourceMappingURL=script.min.js.map
